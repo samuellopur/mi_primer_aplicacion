@@ -11,9 +11,6 @@ public class ActividadDos {
 
         System.out.println("Ingrese nombre: ");
         String nombre = scanner.nextLine();
-        System.out.println("Su nombre  es:" + nombre);
-
-
 
         System.out.println("Ingrese nacionalidad: ");
         String nacionalidad = scanner.nextLine();
@@ -24,7 +21,10 @@ public class ActividadDos {
         System.out.println("Ingrese salario mensual: ");
         double salarioMensual = scanner.nextDouble();
 
-
+        System.out.println("Su nombre  es: " + nombre);
+        System.out.println("Su nacionalidad es: " + nacionalidad);
+        System.out.println("Su ocupacion es: " + ocupacion);
+        System.out.println("Su salario mensual es: " + salarioMensual);
     }
 
 
