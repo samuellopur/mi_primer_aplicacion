@@ -7,8 +7,10 @@ public class Main {
 
         ActividadUno.promedioNotas();
 
+        System.out.println();
+
         ActividadDos.crearUsuario();
-        ActividadDos.calcularAnhoNacimiento();
+
 
     }
 }
